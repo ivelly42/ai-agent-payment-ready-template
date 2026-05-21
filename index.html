@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Agent Payment-Ready Template</title>
+    <meta name="description" content="Free AI-agent payment-ready template for Codex, Claude Code, Cursor, $203 team license, checkout method, invoice, purchase order, reimbursement, receipt, delivery proof, and revenue proof.">
+    <meta property="og:title" content="AI Agent Payment-Ready Template">
+    <meta property="og:description" content="A public AI-agent payment-ready packet for $203 team license, checkout method, invoice, receipt, delivery acceptance, and revenue proof.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ivelly42.github.io/ai-agent-payment-ready-template/">
+    <meta property="og:image" content="https://ivelly42.github.io/agent-ops-command-center/og.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "AI Agent Payment-Ready Template",
+        "description": "AI-agent payment-ready template for Codex, Claude Code, Cursor, and local-agent teams that need a $203 team-license checkout method, invoice, receipt, delivery acceptance, and revenue-proof checks.",
+        "url": "https://ivelly42.github.io/ai-agent-payment-ready-template/",
+        "image": "https://ivelly42.github.io/agent-ops-command-center/og.png",
+        "offers": {
+          "@type": "Offer",
+          "name": "Agent Ops Command Center Team License - 7 seats",
+          "price": "203",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml"
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8f4;
+        --ink: #111312;
+        --muted: #555b56;
+        --line: #d8ddd4;
+        --card: #fffefa;
+        --accent: #155e75;
+        --soft: #eef7f8;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        overflow-x: hidden;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      header,
+      main,
+      footer {
+        width: min(1120px, calc(100% - 36px));
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line);
+      }
+
+      a { color: inherit; }
+
+      .brand,
+      nav a,
+      .button {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .brand { font-weight: 900; }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .hero {
+        min-height: calc(100vh - 72px);
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+        gap: 44px;
+        align-items: center;
+        padding: 54px 0;
+      }
+
+      .eyebrow {
+        margin-bottom: 16px;
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      h1 {
+        max-width: 880px;
+        margin: 0 0 22px;
+        font-size: clamp(42px, 7vw, 76px);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 720px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--ink);
+        border-radius: 8px;
+        padding: 0 16px;
+        font-weight: 850;
+        text-align: center;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .panel,
+      .item,
+      .notice {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--card);
+      }
+
+      .panel {
+        padding: 24px;
+        box-shadow: 0 24px 72px rgb(17 19 18 / 0.1);
+      }
+
+      .price {
+        margin: 0 0 12px;
+        font-size: clamp(56px, 9vw, 88px);
+        line-height: 1;
+        font-weight: 950;
+      }
+
+      .panel p,
+      .item p,
+      .notice {
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      section {
+        border-top: 1px solid var(--line);
+        padding: 42px 0;
+      }
+
+      h2 {
+        margin: 0 0 18px;
+        font-size: clamp(30px, 4.5vw, 48px);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .item,
+      .notice {
+        padding: 22px;
+      }
+
+      .tagline {
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 260px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fffefa;
+        color: var(--ink);
+        padding: 16px;
+        resize: vertical;
+        font: 14px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        padding: 28px 0 40px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 860px) {
+        header {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 12px;
+          padding: 18px 0;
+        }
+
+        .hero {
+          min-height: auto;
+          grid-template-columns: 1fr;
+          padding: 40px 0;
+        }
+
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="https://ivelly42.github.io/agent-ops-command-center/">Agent Ops Command Center</a>
+      <nav aria-label="Primary">
+        <a href="PAYMENT_READY_TEMPLATE.md">Template</a>
+        <a href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml">Request</a>
+        <a href="https://ivelly42.github.io/agent-ops-command-center/buy.html">Buy</a>
+        <a href="https://ivelly42.github.io/agent-ops-command-center/metrics/status.json">Metrics</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">payment-ready checkout request</div>
+          <h1>Record the AI-agent team license buyer who is ready to pay.</h1>
+          <p class="lead">Capture checkout method, invoice, purchase-order, receipt, and payment-proof requirements for a $203 Agent Ops Command Center team license.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml">Open payment-ready request</a>
+            <a class="button" href="PAYMENT_READY_TEMPLATE.md">Use template</a>
+            <a class="button" href="https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html">Team request</a>
+          </div>
+        </div>
+
+        <aside class="panel" aria-label="Team license">
+          <div class="price">$203</div>
+          <p>Seven seats. One confirmed team payment clears the $200 gross target only after checkout, receipt, payout, or seller-dashboard proof exists.</p>
+        </aside>
+      </section>
+
+      <section>
+        <h2>Payment-ready packet sections</h2>
+        <div class="grid">
+          <article class="item">
+            <div class="tagline">checkout</div>
+            <h3>Preferred payment method</h3>
+            <p>Card, invoice, purchase order, reimbursement, procurement, or receipt-capable checkout.</p>
+          </article>
+          <article class="item">
+            <div class="tagline">proof</div>
+            <h3>Revenue evidence</h3>
+            <p>Checkout, receipt, payout, or seller-dashboard evidence before any revenue is counted.</p>
+          </article>
+          <article class="item">
+            <div class="tagline">delivery</div>
+            <h3>Paid ZIP gate</h3>
+            <p>Delivery manifest, archive digest, buyer acknowledgement, and acceptance owner.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Copy request</h2>
+        <textarea readonly>Payment-ready request: Agent Ops Command Center
+Request package: Team license - 7 seats - $203 gross
+Buyer status: ready to pay when preferred checkout is available.
+Required proof: checkout, receipt, payout, or seller-dashboard evidence.
+Delivery rule: private paid ZIP delivered only after payment proof exists.
+Payment-ready form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml</textarea>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml">Open payment-ready request</a>
+          <a class="button" href="agent-ops-command-center.json">Machine-readable packet</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Revenue rule</h2>
+        <p class="notice">Payment-ready requests, page views, stars, forks, template use, and downloads are not revenue. Count revenue only after checkout, receipt, payout, or seller-dashboard evidence tied to the paid pack.</p>
+      </section>
+    </main>
+
+    <footer>
+      Public payment-ready mirror. Paid ZIP stays private until payment proof exists.
+    </footer>
+  </body>
+</html>
