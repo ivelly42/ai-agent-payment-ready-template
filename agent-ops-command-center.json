@@ -6,7 +6,7 @@
   "landing_page": "https://ivelly42.github.io/ai-agent-payment-ready-template/",
   "primary_request_url": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "payment_ready_issue_form": "https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml",
-  "team_checkout_request_page": "https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html",
+  "team_checkout_request_page": "https://ivelly42.github.io/agent-ops-command-center/team-request-url.html",
   "checkout_status": "https://ivelly42.github.io/agent-ops-command-center/checkout-status.json",
   "buy_page": "https://ivelly42.github.io/agent-ops-command-center/buy.html",
   "metrics": "https://ivelly42.github.io/agent-ops-command-center/metrics/status.json",

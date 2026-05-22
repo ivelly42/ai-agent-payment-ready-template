@@ -10,7 +10,7 @@ This repository is a search and routing surface. The paid ZIP is not stored here
 - Free payment-ready template: https://ivelly42.github.io/ai-agent-payment-ready-template/PAYMENT_READY_TEMPLATE.md
 - Primary $203 team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Payment-ready issue form: https://github.com/ivelly42/agent-ops-command-center/issues/new?template=payment-ready.yml
-- Fast team checkout request page: https://ivelly42.github.io/agent-ops-command-center/team-checkout-request.html
+- Primary team request page: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
 - Checkout status: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 - Buy page: https://ivelly42.github.io/agent-ops-command-center/buy.html
 - Demand metrics: https://ivelly42.github.io/agent-ops-command-center/metrics/status.json
