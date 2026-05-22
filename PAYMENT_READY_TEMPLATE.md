@@ -38,6 +38,8 @@ Buyer is ready to pay when the preferred checkout method is available.
 Preferred checkout:
 Required proof: checkout, receipt, payout, or seller-dashboard evidence.
 Delivery rule: private paid ZIP delivered only after payment proof exists.
+Primary team request URL: https://ivelly42.github.io/agent-ops-command-center/team-request-url.html
+Checkout status: https://ivelly42.github.io/agent-ops-command-center/checkout-status.json
 ```
 
 ## Payment Proof Checklist
